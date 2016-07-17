@@ -14,6 +14,7 @@
 		C71E2BC31D3C0F0700BE3E60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C71E2BC21D3C0F0700BE3E60 /* Assets.xcassets */; };
 		C71E2BC61D3C0F0700BE3E60 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C71E2BC41D3C0F0700BE3E60 /* LaunchScreen.storyboard */; };
 		C71E2BD11D3C0F0700BE3E60 /* UnitTestingExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C71E2BD01D3C0F0700BE3E60 /* UnitTestingExampleTests.m */; };
+		C71E2BDD1D3C0F2E00BE3E60 /* PMODownloadTaskQueues.m in Sources */ = {isa = PBXBuildFile; fileRef = C71E2BDC1D3C0F2E00BE3E60 /* PMODownloadTaskQueues.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		C71E2BCC1D3C0F0700BE3E60 /* UnitTestingExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnitTestingExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C71E2BD01D3C0F0700BE3E60 /* UnitTestingExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UnitTestingExampleTests.m; sourceTree = "<group>"; };
 		C71E2BD21D3C0F0700BE3E60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C71E2BDB1D3C0F2D00BE3E60 /* PMODownloadTaskQueues.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PMODownloadTaskQueues.h; sourceTree = "<group>"; };
+		C71E2BDC1D3C0F2E00BE3E60 /* PMODownloadTaskQueues.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PMODownloadTaskQueues.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				C71E2BBA1D3C0F0700BE3E60 /* AppDelegate.m */,
 				C71E2BBC1D3C0F0700BE3E60 /* ViewController.h */,
 				C71E2BBD1D3C0F0700BE3E60 /* ViewController.m */,
+				C71E2BDB1D3C0F2D00BE3E60 /* PMODownloadTaskQueues.h */,
+				C71E2BDC1D3C0F2E00BE3E60 /* PMODownloadTaskQueues.m */,
 				C71E2BBF1D3C0F0700BE3E60 /* Main.storyboard */,
 				C71E2BC21D3C0F0700BE3E60 /* Assets.xcassets */,
 				C71E2BC41D3C0F0700BE3E60 /* LaunchScreen.storyboard */,
@@ -212,6 +217,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C71E2BBE1D3C0F0700BE3E60 /* ViewController.m in Sources */,
+				C71E2BDD1D3C0F2E00BE3E60 /* PMODownloadTaskQueues.m in Sources */,
 				C71E2BBB1D3C0F0700BE3E60 /* AppDelegate.m in Sources */,
 				C71E2BB81D3C0F0700BE3E60 /* main.m in Sources */,
 			);
