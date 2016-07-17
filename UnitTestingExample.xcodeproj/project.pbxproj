@@ -15,6 +15,7 @@
 		C71E2BC61D3C0F0700BE3E60 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C71E2BC41D3C0F0700BE3E60 /* LaunchScreen.storyboard */; };
 		C71E2BD11D3C0F0700BE3E60 /* UnitTestingExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C71E2BD01D3C0F0700BE3E60 /* UnitTestingExampleTests.m */; };
 		C71E2BDD1D3C0F2E00BE3E60 /* PMODownloadTaskQueues.m in Sources */ = {isa = PBXBuildFile; fileRef = C71E2BDC1D3C0F2E00BE3E60 /* PMODownloadTaskQueues.m */; };
+		C71E2BE11D3C110900BE3E60 /* PMODownloadTaskQueues_BasicTest.m in Sources */ = {isa = PBXBuildFile; fileRef = C71E2BE01D3C110900BE3E60 /* PMODownloadTaskQueues_BasicTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,7 @@
 		C71E2BD21D3C0F0700BE3E60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C71E2BDB1D3C0F2D00BE3E60 /* PMODownloadTaskQueues.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PMODownloadTaskQueues.h; sourceTree = "<group>"; };
 		C71E2BDC1D3C0F2E00BE3E60 /* PMODownloadTaskQueues.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PMODownloadTaskQueues.m; sourceTree = "<group>"; };
+		C71E2BE01D3C110900BE3E60 /* PMODownloadTaskQueues_BasicTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PMODownloadTaskQueues_BasicTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +112,7 @@
 		C71E2BCF1D3C0F0700BE3E60 /* UnitTestingExampleTests */ = {
 			isa = PBXGroup;
 			children = (
+				C71E2BE01D3C110900BE3E60 /* PMODownloadTaskQueues_BasicTest.m */,
 				C71E2BD01D3C0F0700BE3E60 /* UnitTestingExampleTests.m */,
 				C71E2BD21D3C0F0700BE3E60 /* Info.plist */,
 			);
@@ -227,6 +230,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C71E2BE11D3C110900BE3E60 /* PMODownloadTaskQueues_BasicTest.m in Sources */,
 				C71E2BD11D3C0F0700BE3E60 /* UnitTestingExampleTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
